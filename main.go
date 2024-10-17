@@ -20,7 +20,7 @@ import (
 var assets embed.FS
 
 func reportError(reason string, err error) {
-	println("Error: %v", err)
+	println("Error:", err.Error())
 	dialog.Message("%v: %v", reason, err.Error()).
 		Title("Error").
 		Error()
@@ -39,8 +39,7 @@ func main() {
 	fileMenu := appMenu.AddSubmenu("File")
 
 	fileMenu.AddText("&New", keys.CmdOrCtrl("n"), func(_ *menu.CallbackData) {
-		reportError("Not implemented", errors.New("not implemented"))
-		// runtime.EventsEmit(app.ctx, "new-file", nil)
+		runtime.EventsEmit(app.ctx, "new-file", nil)
 	})
 
 	fileMenu.AddText("&Save", keys.CmdOrCtrl("s"), func(_ *menu.CallbackData) {
