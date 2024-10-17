@@ -2,6 +2,10 @@
 
 Topdown is a straightforward Markdown editor that utilizes the OpenAI API for text generation. It is intended as a tool for drafting and modifying Markdown documents.
 
+## Download
+
+Visit the [downloads page](https://github.com/nathan-fiscaletti/topdown/releases) to get the latest version of Topdown.
+
 ## Capabilities
 
 - Organize Markdown content into sections
@@ -14,10 +18,6 @@ Topdown is a straightforward Markdown editor that utilizes the OpenAI API for te
 To utilize the AI capabilities in Topdown, you'll need to obtain an API key from OpenAI. This can be done by heading over to [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys).
 
 After acquiring your API key, you can set it up in Topdown by navigating to the Settings through the Edit menu of the app.
-
-## Download
-
-Visit the [downloads page](https://github.com/nathan-fiscaletti/topdown/releases) to get the latest version of Topdown.
 
 ## License
 
