@@ -25,5 +25,5 @@ Topdown is distributed under the MIT license.
 
 ## Roadmap
 
-[ ] Custom themes / dark mode
-[ ] Customization of the AI model and other features related to the OpenAI API
+- [ ] Custom themes / dark mode
+- [ ] Customization of the AI model and other features related to the OpenAI API
